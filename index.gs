@@ -21,7 +21,7 @@ function getHtmlFromCell(range) {
       b: style.isBold(),
       i: style.isItalic(),
       u: style.isUnderline(),
-      s: isStrikethrough()
+      s: style.isStrikethrough()
     };
 
     // Setting tags
